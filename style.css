@@ -1,0 +1,38 @@
+body {
+    background-color:C2D7EF;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    }
+.zoom,.nav-list li a{
+    transition: transform 0.3s ease-in-out;
+    /* transition: font-weight 0.2s ease-in-out; */
+}
+.zoom:hover,.nav-list li a:hover{
+    transform: scale(1.05);
+    
+}
+.nav-list li a:hover{
+  color: white;
+  font-weight: bold;
+}
+.fade {
+    opacity: 0;
+  }
+
+  /* Define a fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Apply the animation to the element */
+  .fade {
+    animation: fadeIn 1s ease-in-out forwards; /* You can adjust the duration and timing function */
+  }
+
+.cw{   
+  color:white;  
+} 
